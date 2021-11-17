@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tabla-periodica.yoshualopez.ml/static/css/main.2e067bb1.chunk.css",
+    "main.js": "/tabla-periodica.yoshualopez.ml/static/js/main.2ffacc57.chunk.js",
+    "main.js.map": "/tabla-periodica.yoshualopez.ml/static/js/main.2ffacc57.chunk.js.map",
+    "runtime-main.js": "/tabla-periodica.yoshualopez.ml/static/js/runtime-main.8b6c3553.js",
+    "runtime-main.js.map": "/tabla-periodica.yoshualopez.ml/static/js/runtime-main.8b6c3553.js.map",
+    "static/js/2.55dfea70.chunk.js": "/tabla-periodica.yoshualopez.ml/static/js/2.55dfea70.chunk.js",
+    "static/js/2.55dfea70.chunk.js.map": "/tabla-periodica.yoshualopez.ml/static/js/2.55dfea70.chunk.js.map",
+    "index.html": "/tabla-periodica.yoshualopez.ml/index.html",
+    "static/css/main.2e067bb1.chunk.css.map": "/tabla-periodica.yoshualopez.ml/static/css/main.2e067bb1.chunk.css.map",
+    "static/js/2.55dfea70.chunk.js.LICENSE.txt": "/tabla-periodica.yoshualopez.ml/static/js/2.55dfea70.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b6c3553.js",
+    "static/js/2.55dfea70.chunk.js",
+    "static/css/main.2e067bb1.chunk.css",
+    "static/js/main.2ffacc57.chunk.js"
+  ]
+}
