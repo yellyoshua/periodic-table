@@ -35,6 +35,8 @@ export const HomePage = () => {
           </Container>
           <Switch
             checked={isActualTable}
+            onColor="#008800"
+            offColor="#008800"
             uncheckedIcon={false}
             checkedIcon={false}
             onChange={setIsActualTable}
