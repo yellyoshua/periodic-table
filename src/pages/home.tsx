@@ -12,13 +12,13 @@ export const HomePage = () => {
     setElements([]);
     if (isActualTable) {
       fetch(
-        "https://periodic-table.yellyoshua.workers.dev/api/new-periodic-table"
+        "https://api.yoshualopez.com/periodic-table/latest"
       )
         .then((r) => r.json())
         .then((res) => setElements(res))
         .catch(() => setElements([]));
     } else {
-      fetch("https://periodic-table.yellyoshua.workers.dev/api/periodic-table")
+      fetch("https://api.yoshualopez.com/periodic-table/previous")
         .then((r) => r.json())
         .then((res) => setElements(res))
         .catch(() => setElements([]));
