@@ -11,9 +11,7 @@ export const HomePage = () => {
   React.useEffect(() => {
     setElements([]);
     if (isActualTable) {
-      fetch(
-        "https://api.yoshualopez.com/periodic-table/latest"
-      )
+      fetch("https://api.yoshualopez.com/periodic-table/latest")
         .then((r) => r.json())
         .then((res) => setElements(res))
         .catch(() => setElements([]));

@@ -26,10 +26,10 @@ const ListElements = ({ elements }: { elements: Element[] }) => {
           onChange={({ target: { value } }) => setFilter(value)}
         />
         <Grid>
-          {elements.filter(filterHandler).map((element) => {
+          {elements.filter(filterHandler).map((element, index) => {
             const { linear } = getRandomColor(element.n_atomico);
             return (
-              <GridItem>
+              <GridItem key={index}>
                 <Container padding="5px">
                   <Box background={linear}>
                     <Container>
